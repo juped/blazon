@@ -1,20 +1,20 @@
 :: blazon
 !:
-|_  [hid=hide ~] :: sorta magic, i don't know what a hide is
+|_  [hid=hide ~]
 ++  poke-blazon-args
   |=  [ost=bone you=ship her=ship ~]
   =+  ^=  put
       %+  turn  %-  flop  %-  lore  %-  crip
       (blazon-ship her)
       trip
-  :_  +>.$ :: mostly magic
+  :_  +>.$
   :*  [ost %pass / %g %cide %$]
       [ost %give %nice ~]
       %+  turn  put
       |=  [lin=tape]
-      [ost %pass / %d %flog %text lin] :: i don't think i'm supposed to use dill flog to print things
-  ==                                   :: however, %give %rush didn't work for me at all
-::                                     :: (prints nothing, despite working in ~zod's apps)
+      [ost %pass / %d %flog %text lin]
+  ==
+::
 ++  blazon-ship
   |=  [her=ship]
   =+  dok=((hard (unit gcos)) .^(%a /=gcos=/(scot %p her)))
